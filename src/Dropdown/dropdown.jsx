@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
 import './dropdown.css';
 
-export default function dropdown() {
+export default function Dropdown() {
     return(
         <details>
             <summary>How it works?</summary>
