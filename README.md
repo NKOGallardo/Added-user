@@ -11,4 +11,21 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # Added-user
 
-Domain-provider : Vercel
+React + Vite app configured for deployment on Vercel.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Deploy to Vercel
+
+Import this repository into Vercel. The default settings are correct:
+
+- Build command: `npm run build`
+- Output directory: `dist`
+- Install command: `npm install`
+
+The `vercel.json` rewrite keeps the app working when a route is opened directly.
