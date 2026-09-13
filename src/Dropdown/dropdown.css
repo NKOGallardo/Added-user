@@ -1,0 +1,18 @@
+::selection {
+    background-color: #c084fc;;
+    color: #000;
+}
+
+details {
+    transform: scale(0);
+    animation: scale-up 1s ease-in-out forwards;
+}
+
+@keyframes scale-up {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
