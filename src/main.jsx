@@ -3,10 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Header from './Header/header'
 import Dropdown from './drop-down/dropdown'
+import Form from './Form/form'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <Dropdown />
+    <Form />
   </StrictMode>,
 )
